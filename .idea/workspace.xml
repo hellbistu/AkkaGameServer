@@ -2,22 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c203b88b-5c09-4d87-9ba6-cd4d00f946ff" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/auth/auth.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/battle/battle.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gate/gate.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gate/gate.toml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gate/src/com/hellbistu/gate/Bootstrap.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gate/src/com/hellbistu/gate/Packet.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gate/src/com/hellbistu/gate/config/ConfigManager.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gate/src/com/hellbistu/gate/config/GateConfig.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gate/src/com/hellbistu/gate/handler/DispatchHandler.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gate/src/com/hellbistu/gate/handler/KeepAliveHandler.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gate/src/com/hellbistu/gate/handler/PacketDecoder.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gate/src/com/hellbistu/gate/handler/PacketEncoder.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gs/gs.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pay/pay.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -27,16 +12,25 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/gate/src/com/hellbistu/gate/Bootstrap.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="183">
-              <caret line="47" column="69" lean-forward="true" selection-start-line="47" selection-start-column="69" selection-end-line="47" selection-end-column="69" />
+            <state relative-caret-position="99">
+              <caret line="40" column="8" selection-start-line="40" selection-start-column="8" selection-end-line="40" selection-end-column="8" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#1894#2514#0" expanded="true" />
-                <element signature="e#2513#2514#0" expanded="true" />
+                <element signature="e#1894#2539#0" expanded="true" />
+                <element signature="e#2538#2539#0" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/gate/gate.iml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="30">
+              <caret line="2" column="33" selection-start-line="2" selection-start-column="33" selection-end-line="2" selection-end-column="33" />
             </state>
           </provider>
         </entry>
@@ -174,6 +168,11 @@
               <item name="gate" type="462c0819:PsiDirectoryNode" />
               <item name="handler" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="AkkaGameServer" type="b2602c69:ProjectViewProjectNode" />
+              <item name="AkkaGameServer" type="462c0819:PsiDirectoryNode" />
+              <item name="output" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
@@ -183,12 +182,13 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1581579464262" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1581581380671" />
     <property name="jdk.selected.JAVA_MODULE" value="1.8" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
+    <property name="settings.editor.selected.configurable" value="vcs.Git" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
@@ -210,7 +210,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.Testy">
+  <component name="RunManager" selected="Application.Bootstrap">
     <configuration name="Bootstrap" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.hellbistu.gate.Bootstrap" />
       <module name="gate" />
@@ -244,8 +244,8 @@
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.Testy" />
         <item itemvalue="Application.Bootstrap" />
+        <item itemvalue="Application.Testy" />
       </list>
     </recent_temporary>
   </component>
@@ -263,8 +263,7 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="49" y="23" width="1366" height="746" extended-state="0" />
-    <editor active="true" />
+    <frame x="49" y="24" width="1366" height="746" extended-state="0" />
     <layout>
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.25377643" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
@@ -393,13 +392,20 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/gate/src/com/hellbistu/gate/Bootstrap.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="183">
-          <caret line="47" column="69" lean-forward="true" selection-start-line="47" selection-start-column="69" selection-end-line="47" selection-end-column="69" />
+        <state relative-caret-position="99">
+          <caret line="40" column="8" selection-start-line="40" selection-start-column="8" selection-end-line="40" selection-end-column="8" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#1894#2514#0" expanded="true" />
-            <element signature="e#2513#2514#0" expanded="true" />
+            <element signature="e#1894#2539#0" expanded="true" />
+            <element signature="e#2538#2539#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/gate/gate.iml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30">
+          <caret line="2" column="33" selection-start-line="2" selection-start-column="33" selection-end-line="2" selection-end-column="33" />
         </state>
       </provider>
     </entry>
