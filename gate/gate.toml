@@ -1,4 +1,7 @@
 
+#gate的id
+gateId=1
+
 #是否打开keepalive
 openKeepAlive=true
 

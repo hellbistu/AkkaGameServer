@@ -18,6 +18,12 @@ public class GateConfig {
 
     private boolean tcpNodelay = true;
 
+    private int gateId = 1;
+
+    public int getGateId() {
+        return gateId;
+    }
+
     public boolean isOpenKeepAlive() {
         return openKeepAlive;
     }

@@ -54,6 +54,8 @@ public class Bootstrap {
                         ch.pipeline().addLast(new DispatchHandler());
                         ch.pipeline().addLast(new PacketEncoder());
 
+                        
+
                     }
                 })
                 .bind(config.getPublicPort());
