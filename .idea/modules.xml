@@ -8,6 +8,7 @@
       <module fileurl="file://$PROJECT_DIR$/gate/gate.iml" filepath="$PROJECT_DIR$/gate/gate.iml" />
       <module fileurl="file://$PROJECT_DIR$/gs/gs.iml" filepath="$PROJECT_DIR$/gs/gs.iml" />
       <module fileurl="file://$PROJECT_DIR$/pay/pay.iml" filepath="$PROJECT_DIR$/pay/pay.iml" />
+      <module fileurl="file://$PROJECT_DIR$/tools/protogen-tool/protogen-tool.iml" filepath="$PROJECT_DIR$/tools/protogen-tool/protogen-tool.iml" />
     </modules>
   </component>
 </project>

@@ -2,15 +2,41 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c203b88b-5c09-4d87-9ba6-cd4d00f946ff" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gate/src/com/hellbistu/gate/LinkSession.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gate/src/com/hellbistu/gate/LinkSessionManager.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gate/src/gnet/GateProtocol.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gate/src/gnet/GateRoot.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gate/src/gnet/LinkSessionManager.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gs/src/knight/gsp/Bootstrap.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gs/src/knight/gsp/IProtocolHandle.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gs/src/knight/gsp/account/Account.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/protocols/game/gsp.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/protocols/game/item.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/protocols/gate/gate.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/protocols/protocol.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/gsHandler.template" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/registGsHandler.template" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tools/protogen-tool/src/knight/gsp/protogentool/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tools/protogen-tool/src/knight/gsp/protogentool/ModuleConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tools/protogen-tool/src/knight/gsp/protogentool/ModuleHandlerConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tools/protogen-tool/src/knight/gsp/protogentool/ProtocolConfig.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/gate/gate.toml" beforeDir="false" afterPath="$PROJECT_DIR$/gate/gate.toml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/gate/src/com/hellbistu/gate/Bootstrap.java" beforeDir="false" afterPath="$PROJECT_DIR$/gate/src/com/hellbistu/gate/Bootstrap.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/gate/src/com/hellbistu/gate/config/GateConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/gate/src/com/hellbistu/gate/config/GateConfig.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/gate/src/com/hellbistu/gate/handler/DispatchHandler.java" beforeDir="false" afterPath="$PROJECT_DIR$/gate/src/com/hellbistu/gate/handler/DispatchHandler.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/auth/auth.iml" beforeDir="false" afterPath="$PROJECT_DIR$/auth/auth.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/battle/battle.iml" beforeDir="false" afterPath="$PROJECT_DIR$/battle/battle.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gate/gate.iml" beforeDir="false" afterPath="$PROJECT_DIR$/gate/gate.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gate/src/com/hellbistu/gate/Bootstrap.java" beforeDir="false" afterPath="$PROJECT_DIR$/gate/src/gnet/Bootstrap.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gate/src/com/hellbistu/gate/LinkSession.java" beforeDir="false" afterPath="$PROJECT_DIR$/gate/src/gnet/LinkSession.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gate/src/com/hellbistu/gate/LinkSessionManager.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gate/src/com/hellbistu/gate/Packet.java" beforeDir="false" afterPath="$PROJECT_DIR$/gate/src/gnet/Packet.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gate/src/com/hellbistu/gate/config/ConfigManager.java" beforeDir="false" afterPath="$PROJECT_DIR$/gate/src/gnet/config/ConfigManager.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gate/src/com/hellbistu/gate/config/GateConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/gate/src/gnet/config/GateConfig.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gate/src/com/hellbistu/gate/handler/DispatchHandler.java" beforeDir="false" afterPath="$PROJECT_DIR$/gate/src/gnet/handler/DispatchHandler.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gate/src/com/hellbistu/gate/handler/KeepAliveHandler.java" beforeDir="false" afterPath="$PROJECT_DIR$/gate/src/gnet/handler/KeepAliveHandler.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gate/src/com/hellbistu/gate/handler/PacketDecoder.java" beforeDir="false" afterPath="$PROJECT_DIR$/gate/src/gnet/handler/PacketDecoder.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gate/src/com/hellbistu/gate/handler/PacketEncoder.java" beforeDir="false" afterPath="$PROJECT_DIR$/gate/src/gnet/handler/PacketEncoder.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gs/gs.iml" beforeDir="false" afterPath="$PROJECT_DIR$/gs/gs.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pay/pay.iml" beforeDir="false" afterPath="$PROJECT_DIR$/pay/pay.iml" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -18,106 +44,127 @@
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="DefaultGradleProjectSettings">
+    <option name="isMigrated" value="true" />
+  </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/gate/src/com/hellbistu/gate/Bootstrap.java">
+        <entry file="file://$PROJECT_DIR$/protocols/protocol.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="840">
-              <caret line="56" column="24" selection-start-line="56" selection-start-column="24" selection-end-line="56" selection-end-column="24" />
+            <state relative-caret-position="302">
+              <caret line="27" column="23" selection-start-line="27" selection-start-column="13" selection-end-line="27" selection-end-column="23" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/protocols/gate/gate.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="212">
+              <caret line="19" column="50" selection-start-line="19" selection-start-column="44" selection-end-line="19" selection-end-column="50" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/tools/protogen-tool/src/knight/gsp/protogentool/ModuleHandlerConfig.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="283">
+              <caret line="36" column="31" selection-start-line="36" selection-start-column="18" selection-end-line="36" selection-end-column="31" />
+              <folding>
+                <element signature="e#664#665#0" expanded="true" />
+                <element signature="e#697#698#0" expanded="true" />
+                <element signature="e#749#750#0" expanded="true" />
+                <element signature="e#793#794#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/tools/protogen-tool/src/knight/gsp/protogentool/Main.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="111">
+              <caret line="206" column="61" selection-start-line="206" selection-start-column="61" selection-end-line="206" selection-end-column="61" />
               <folding>
                 <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/gs/src/knight/gsp/item/CUseItemHandler.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="190">
+              <caret line="10" column="34" selection-start-line="10" selection-start-column="34" selection-end-line="10" selection-end-column="34" />
+              <folding>
+                <element signature="e#0#338#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/gate/src/com/hellbistu/gate/config/GateConfig.java">
+        <entry file="file://$PROJECT_DIR$/templates/registGsHandler.template">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="300">
-              <caret line="22" column="28" lean-forward="true" selection-start-line="22" selection-start-column="28" selection-end-line="22" selection-end-column="28" />
+            <state relative-caret-position="399">
+              <caret line="21" lean-forward="true" selection-start-line="21" selection-end-line="21" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/gs/src/knight/gsp/IProtocolHandle.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="133">
+              <caret line="7" column="32" selection-start-line="7" selection-start-column="17" selection-end-line="7" selection-end-column="32" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/gs/src/knight/gsp/CEnterWorldHandler.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="95">
+              <caret line="6" column="46" lean-forward="true" selection-start-line="6" selection-start-column="46" selection-end-line="6" selection-end-column="46" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/templates/gsHandler.template">
+          <provider selected="true" editor-type-id="text-editor">
+            <state>
+              <caret selection-end-line="2" selection-end-column="11" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/tools/protogen-tool/src/knight/gsp/protogentool/ProtocolConfig.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="76">
+              <caret line="4" column="24" selection-start-line="4" selection-start-column="24" selection-end-line="4" selection-end-column="24" />
               <folding>
-                <element signature="e#453#454#0" expanded="true" />
+                <element signature="e#195#196#0" expanded="true" />
+                <element signature="e#222#223#0" expanded="true" />
+                <element signature="e#262#263#0" expanded="true" />
+                <element signature="e#294#295#0" expanded="true" />
+                <element signature="e#325#326#0" expanded="true" />
+                <element signature="e#352#353#0" expanded="true" />
+                <element signature="e#392#393#0" expanded="true" />
+                <element signature="e#424#425#0" expanded="true" />
+                <element signature="e#455#456#0" expanded="true" />
+                <element signature="e#482#483#0" expanded="true" />
+                <element signature="e#522#523#0" expanded="true" />
+                <element signature="e#554#555#0" expanded="true" />
+                <element signature="e#587#588#0" expanded="true" />
+                <element signature="e#616#617#0" expanded="true" />
+                <element signature="e#660#661#0" expanded="true" />
+                <element signature="e#696#697#0" expanded="true" />
               </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/gate/gate.toml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="15">
-              <caret line="1" column="8" selection-start-line="1" selection-start-column="8" selection-end-line="1" selection-end-column="8" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/gate/src/com/hellbistu/gate/handler/PacketDecoder.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="270">
-              <caret line="18" selection-start-line="18" selection-end-line="18" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/gate/src/com/hellbistu/gate/Packet.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="75">
-              <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/gate/src/com/hellbistu/gate/handler/KeepAliveHandler.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="255">
-              <caret line="17" column="56" selection-start-line="17" selection-start-column="35" selection-end-line="17" selection-end-column="56" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/gate/src/com/hellbistu/gate/handler/DispatchHandler.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="210">
-              <caret line="15" selection-start-line="15" selection-end-line="15" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/gate/src/com/hellbistu/gate/LinkSessionManager.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="255">
-              <caret line="17" lean-forward="true" selection-start-line="17" selection-end-line="17" />
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#148#166#0" expanded="true" />
-                <element signature="e#295#296#0" expanded="true" />
-                <element signature="e#322#323#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/gate/src/com/hellbistu/gate/LinkSession.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="105">
-              <caret line="7" column="41" lean-forward="true" selection-start-line="7" selection-start-column="41" selection-end-line="7" selection-end-column="41" />
             </state>
           </provider>
         </entry>
@@ -127,9 +174,17 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="toml" />
+        <option value="Interface" />
+        <option value="XML" />
         <option value="Class" />
       </list>
     </option>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>Parser</find>
+    </findStrings>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -143,27 +198,60 @@
         <option value="$PROJECT_DIR$/gate/src/com/hellbistu/gate/config/ConfigManager.java" />
         <option value="$PROJECT_DIR$/gate/src/com/hellbistu/gate/test/Testy.java" />
         <option value="$PROJECT_DIR$/gate/src/com/hellbistu/gate/LinkActor.java" />
-        <option value="$PROJECT_DIR$/gate/src/com/hellbistu/gate/Bootstrap.java" />
-        <option value="$PROJECT_DIR$/gate/src/com/hellbistu/gate/handler/DispatchHandler.java" />
-        <option value="$PROJECT_DIR$/gate/src/com/hellbistu/gate/LinkSessionManager.java" />
-        <option value="$PROJECT_DIR$/gate/gate.toml" />
         <option value="$PROJECT_DIR$/gate/src/com/hellbistu/gate/config/GateConfig.java" />
+        <option value="$PROJECT_DIR$/.gitignore" />
+        <option value="$PROJECT_DIR$/gate/gate.toml" />
+        <option value="$PROJECT_DIR$/protocols/proto.toml" />
+        <option value="$PROJECT_DIR$/protocols/protocol.xml..xml" />
+        <option value="$PROJECT_DIR$/protocols/protocol..xml" />
+        <option value="$PROJECT_DIR$/tools/protogen-tool/src/Main.java" />
+        <option value="$PROJECT_DIR$/protogen/gate.proto" />
+        <option value="$PROJECT_DIR$/gs/src/com/hellbistu/com/hellbistu/account/logic/IProtocolHandle.java" />
+        <option value="$PROJECT_DIR$/gs/src/com/hellbistu/com/hellbistu/account/Account.java" />
+        <option value="$PROJECT_DIR$/gs/src/com/hellbistu/account/Account.java" />
+        <option value="$PROJECT_DIR$/gs/src/com/hellbistu/account/logic/IProtocolHandle.java" />
+        <option value="$PROJECT_DIR$/gate/src/com/hellbistu/gate/Bootstrap.java" />
+        <option value="$PROJECT_DIR$/gate/src/com/hellbistu/gate/GateRoot.java" />
+        <option value="$PROJECT_DIR$/gate/src/com/hellbistu/gate/LinkSessionManager.java" />
+        <option value="$PROJECT_DIR$/gate/src/com/hellbistu/gate/handler/DispatchHandler.java" />
+        <option value="$PROJECT_DIR$/gate/src/gnet/GateProtocol.java" />
+        <option value="$PROJECT_DIR$/gate/src/gnet/LinkSession.java" />
+        <option value="$PROJECT_DIR$/gate/src/gnet/handler/DispatchHandler.java" />
+        <option value="$PROJECT_DIR$/protocols/gate.proto" />
+        <option value="$PROJECT_DIR$/gate/src/gnet/Packet.java" />
+        <option value="$PROJECT_DIR$/gate/src/gnet/LinkSessionManager.java" />
+        <option value="$PROJECT_DIR$/protocols/gate/gate.xml" />
+        <option value="$PROJECT_DIR$/build.xml" />
+        <option value="$PROJECT_DIR$/tools/protogen-tool/src/com/hellbistu/protogentool/ModuleConfig.java" />
+        <option value="$PROJECT_DIR$/protocols/game/gsp.xml" />
+        <option value="$PROJECT_DIR$/protocols/game/item.xml" />
+        <option value="$PROJECT_DIR$/tools/protogen-tool/src/com/hellbistu/protogentool/Main.java" />
+        <option value="$PROJECT_DIR$/gs/src/com/hellbistu/Bootstrap.java" />
+        <option value="$PROJECT_DIR$/gs/src/knight/gsp/item/CUsteItemHandler.java" />
+        <option value="$PROJECT_DIR$/tools/protogen-tool/src/knight/gsp/protogentool/ModuleConfig.java" />
+        <option value="$PROJECT_DIR$/gs/src/knight/gsp/CEnterWorldHandler.java" />
+        <option value="$PROJECT_DIR$/templates/protocolHandler.template" />
+        <option value="$PROJECT_DIR$/tools/protogen-tool/src/knight/gsp/protogentool/ProtocolConfig.java" />
+        <option value="$PROJECT_DIR$/protocols/protocol.xml" />
+        <option value="$PROJECT_DIR$/tools/protogen-tool/src/knight/gsp/protogentool/ModuleHandlerConfig.java" />
+        <option value="$PROJECT_DIR$/tools/protogen-tool/src/knight/gsp/protogentool/Main.java" />
+        <option value="$PROJECT_DIR$/gs/src/knight/gsp/IProtocolHandle.java" />
+        <option value="$PROJECT_DIR$/templates/gsHandler.template" />
+        <option value="$PROJECT_DIR$/gs/src/knight/gsp/item/CUseItemHandler.java" />
+        <option value="$PROJECT_DIR$/templates/registGsHandler.template" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="49" />
-    <option name="y" value="24" />
-    <option name="width" value="1366" />
-    <option name="height" value="746" />
+    <option name="x" value="67" />
+    <option name="width" value="1798" />
+    <option name="height" value="1047" />
   </component>
   <component name="ProjectView">
     <navigator proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="PackagesPane" />
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -180,6 +268,19 @@
               <item name="AkkaGameServer" type="b2602c69:ProjectViewProjectNode" />
               <item name="AkkaGameServer" type="462c0819:PsiDirectoryNode" />
               <item name="gate" type="462c0819:PsiDirectoryNode" />
+              <item name="protogen" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="AkkaGameServer" type="b2602c69:ProjectViewProjectNode" />
+              <item name="AkkaGameServer" type="462c0819:PsiDirectoryNode" />
+              <item name="gate" type="462c0819:PsiDirectoryNode" />
+              <item name="protogen" type="462c0819:PsiDirectoryNode" />
+              <item name="link" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="AkkaGameServer" type="b2602c69:ProjectViewProjectNode" />
+              <item name="AkkaGameServer" type="462c0819:PsiDirectoryNode" />
+              <item name="gate" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -187,42 +288,60 @@
               <item name="AkkaGameServer" type="462c0819:PsiDirectoryNode" />
               <item name="gate" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="gate" type="462c0819:PsiDirectoryNode" />
+              <item name="gnet" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="AkkaGameServer" type="b2602c69:ProjectViewProjectNode" />
               <item name="AkkaGameServer" type="462c0819:PsiDirectoryNode" />
               <item name="gate" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="gate" type="462c0819:PsiDirectoryNode" />
+              <item name="gnet" type="462c0819:PsiDirectoryNode" />
               <item name="config" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="AkkaGameServer" type="b2602c69:ProjectViewProjectNode" />
               <item name="AkkaGameServer" type="462c0819:PsiDirectoryNode" />
-              <item name="output" type="462c0819:PsiDirectoryNode" />
+              <item name="gate" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="gnet" type="462c0819:PsiDirectoryNode" />
+              <item name="handler" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="AkkaGameServer" type="b2602c69:ProjectViewProjectNode" />
+              <item name="AkkaGameServer" type="462c0819:PsiDirectoryNode" />
+              <item name="templates" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
+      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
     <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1581591306199" />
     <property name="jdk.selected.JAVA_MODULE" value="1.8" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/protocols/game" />
+    <property name="nodejs_package_manager_path" value="npm" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
-    <property name="settings.editor.selected.configurable" value="vcs.Git" />
+    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
   </component>
   <component name="RecentsManager">
+    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="knight.gsp" />
+    </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\GitHub\AkkaGameServer\protocols\game" />
+      <recent name="D:\GitHub\AkkaGameServer\protocols" />
+      <recent name="D:\GitHub\AkkaGameServer\gate\src\protogen" />
       <recent name="$PROJECT_DIR$/gate" />
       <recent name="$PROJECT_DIR$/gate/src/com/hellbistu/gate/handler" />
-      <recent name="$PROJECT_DIR$/gate/src/com/hellbistu/gate/config" />
-      <recent name="$PROJECT_DIR$/gate/src/com/hellbistu/gate" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -237,9 +356,22 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.Bootstrap">
+  <component name="RunManager" selected="Application.protogen-tool">
+    <configuration name="Bootstrap (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="knight.gsp.Bootstrap" />
+      <module name="gs" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="knight.gsp.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="Bootstrap" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.hellbistu.gate.Bootstrap" />
+      <option name="MAIN_CLASS_NAME" value="gnet.Bootstrap" />
       <module name="gate" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/gate" />
       <extension name="coverage">
@@ -252,27 +384,23 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Testy" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.hellbistu.gate.test.Testy" />
-      <module name="gate" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.hellbistu.gate.test.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
+    <configuration name="protogen-tool" type="Application" factoryName="Application">
+      <option name="MAIN_CLASS_NAME" value="knight.gsp.protogentool.Main" />
+      <module name="protogen-tool" />
+      <option name="PROGRAM_PARAMETERS" value="protocols/protocol.xml" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <list>
+      <item itemvalue="Application.protogen-tool" />
       <item itemvalue="Application.Bootstrap" />
-      <item itemvalue="Application.Testy" />
+      <item itemvalue="Application.Bootstrap (1)" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Bootstrap (1)" />
         <item itemvalue="Application.Bootstrap" />
-        <item itemvalue="Application.Testy" />
       </list>
     </recent_temporary>
   </component>
@@ -286,14 +414,57 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1581576841850</updated>
+      <workItem from="1581671375007" duration="363000" />
+      <workItem from="1581671759357" duration="3401000" />
+      <workItem from="1581675400047" duration="6987000" />
+      <workItem from="1581690041785" duration="27632000" />
+      <workItem from="1581781865233" duration="9466000" />
+      <workItem from="1581908179938" duration="1659000" />
+      <workItem from="1581913274009" duration="17601000" />
     </task>
     <servers />
   </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="67109000" />
+  </component>
   <component name="ToolWindowManager">
-    <frame x="49" y="24" width="1366" height="746" extended-state="0" />
+    <frame x="67" y="0" width="1798" height="1047" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.25755286" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.25028768" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info id="Image Layers" order="2" />
+      <window_info id="Designer" order="3" />
+      <window_info id="UI Designer" order="4" />
+      <window_info id="Capture Tool" order="5" />
+      <window_info id="Favorites" order="6" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.32968238" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.34392112" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.2902519" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="LuaCheck" order="7" />
+      <window_info anchor="bottom" id="Version Control" order="8" />
+      <window_info anchor="bottom" id="Terminal" order="9" weight="0.32867134" />
+      <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
+      <window_info anchor="bottom" id="Messages" order="11" weight="0.3274918" />
+      <window_info anchor="bottom" id="Docker" order="12" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Database Changes" order="13" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" visible="true" weight="0.06789413" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Palette" order="3" />
+      <window_info anchor="right" id="Capture Analysis" order="4" />
+      <window_info anchor="right" id="Theme Preview" order="5" />
+      <window_info anchor="right" id="Palette&#9;" order="6" />
+      <window_info anchor="right" id="Maven Projects" order="7" />
+      <window_info anchor="right" id="Maven" order="8" />
+      <window_info anchor="right" id="Database" order="9" />
+    </layout>
+    <layout-to-restore>
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.2013809" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -302,16 +473,18 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.48470947" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.27855477" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.39908257" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="LuaCheck" order="7" />
       <window_info anchor="bottom" id="Version Control" order="8" />
-      <window_info anchor="bottom" id="Terminal" order="9" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="9" visible="true" weight="0.32945284" />
       <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
       <window_info anchor="bottom" id="Messages" order="11" weight="0.32874617" />
+      <window_info anchor="bottom" id="Docker" order="12" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Database Changes" order="13" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -320,169 +493,458 @@
       <window_info anchor="right" id="Theme Preview" order="5" />
       <window_info anchor="right" id="Palette&#9;" order="6" />
       <window_info anchor="right" id="Maven Projects" order="7" />
-    </layout>
+      <window_info anchor="right" id="Maven" order="8" />
+      <window_info anchor="right" id="Database" order="9" />
+    </layout-to-restore>
   </component>
-  <component name="VcsContentAnnotationSettings">
-    <option name="myLimit" value="2678400000" />
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
   </component>
-  <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/gate/src/com/hellbistu/gate/Bootstrap.java</url>
-          <line>48</line>
-          <properties />
-          <option name="timeStamp" value="3" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/gate/src/com/hellbistu/gate/handler/PacketDecoder.java</url>
-          <line>18</line>
-          <properties />
-          <option name="timeStamp" value="5" />
-        </line-breakpoint>
-      </breakpoints>
-    </breakpoint-manager>
+  <component name="antWorkspaceConfiguration">
+    <option name="IS_AUTOSCROLL_TO_SOURCE" value="false" />
+    <option name="FILTER_TARGETS" value="false" />
+  </component>
+  <component name="debuggerHistoryManager">
+    <expressions id="evaluateExpression">
+      <expression>
+        <expression-string>file.getPath()</expression-string>
+        <language-id>JAVA</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>protoEntryFile.getParent()</expression-string>
+        <language-id>JAVA</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>protoEntryFile.getCanonicalPath()</expression-string>
+        <language-id>JAVA</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>protoEntryFile.getName()</expression-string>
+        <language-id>JAVA</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>protoEntryFile.getPath()</expression-string>
+        <language-id>JAVA</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>result.toByteArray()</expression-string>
+        <language-id>JAVA</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>element.getName()</expression-string>
+        <language-id>JAVA</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+    </expressions>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/.idea/workspace.xml">
+    <entry file="jar://$PROJECT_DIR$/libs/netty-all-4.1.43.Final.jar!/io/netty/channel/Channel.class">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1647" />
-      </provider>
-    </entry>
-    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_221.jdk/Contents/Home/src.zip!/java/io/Reader.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="138">
-          <caret line="77" selection-start-line="77" selection-end-line="77" />
+        <state relative-caret-position="114">
+          <caret line="12" column="17" selection-start-line="12" selection-start-column="17" selection-end-line="12" selection-end-column="17" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/gate/src/com/hellbistu/gate/test/Testy.java" />
-    <entry file="file://$PROJECT_DIR$/gate/gate.iml">
+    <entry file="file://$PROJECT_DIR$/gate/src/gnet/GateRoot.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="30">
-          <caret line="2" column="33" selection-start-line="2" selection-start-column="33" selection-end-line="2" selection-end-column="33" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$PROJECT_DIR$/libs/netty-all-4.1.43.Final.jar!/io/netty/channel/ChannelDuplexHandler.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="10" column="13" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$PROJECT_DIR$/libs/netty-all-4.1.43.Final.jar!/io/netty/handler/timeout/IdleStateHandler.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="160">
-          <caret line="40" column="11" selection-start-line="40" selection-start-column="11" selection-end-line="40" selection-end-column="11" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/gate/src/com/hellbistu/gate/handler/PacketEncoder.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="165">
-          <caret line="11" column="11" selection-start-line="11" selection-start-column="8" selection-end-line="11" selection-end-column="11" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/gate/src/com/hellbistu/gate/config/ConfigManager.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="95">
-          <caret line="32" column="13" lean-forward="true" selection-start-line="32" selection-start-column="13" selection-end-line="32" selection-end-column="13" />
+        <state relative-caret-position="361">
+          <caret line="19" column="33" selection-start-line="19" selection-start-column="33" selection-end-line="19" selection-end-column="33" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="jar://$PROJECT_DIR$/libs/netty-all-4.1.43.Final.jar!/io/netty/channel/socket/nio/NioServerSocketChannel.class">
+    <entry file="jar://$PROJECT_DIR$/libs/akka-actor_2.12-2.5.21.jar!/akka/actor/Props.class">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1346">
-          <caret line="28" column="21" lean-forward="true" selection-start-line="28" selection-start-column="21" selection-end-line="28" selection-end-column="21" />
+        <state relative-caret-position="-95">
+          <caret line="10" column="33" lean-forward="true" selection-start-line="10" selection-start-column="33" selection-end-line="10" selection-end-column="33" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/gate/src/com/hellbistu/gate/Bootstrap.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="840">
-          <caret line="56" column="24" selection-start-line="56" selection-start-column="24" selection-end-line="56" selection-end-column="24" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/gate/src/com/hellbistu/gate/handler/PacketDecoder.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="270">
-          <caret line="18" selection-start-line="18" selection-end-line="18" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/gate/src/com/hellbistu/gate/Packet.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="75">
-          <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/gate/src/com/hellbistu/gate/handler/KeepAliveHandler.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="17" column="56" selection-start-line="17" selection-start-column="35" selection-end-line="17" selection-end-column="56" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/gate/src/com/hellbistu/gate/handler/DispatchHandler.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="210">
-          <caret line="15" selection-start-line="15" selection-end-line="15" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/gate/src/com/hellbistu/gate/LinkSession.java">
+    <entry file="file://$PROJECT_DIR$/gate/src/gnet/LinkSession.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="105">
-          <caret line="7" column="41" lean-forward="true" selection-start-line="7" selection-start-column="41" selection-end-line="7" selection-end-column="41" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/gate/src/com/hellbistu/gate/LinkSessionManager.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="17" lean-forward="true" selection-start-line="17" selection-end-line="17" />
+          <caret line="18" column="24" selection-start-line="18" selection-start-column="24" selection-end-line="18" selection-end-column="24" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#148#166#0" expanded="true" />
-            <element signature="e#295#296#0" expanded="true" />
+            <element signature="e#275#276#0" expanded="true" />
             <element signature="e#322#323#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/gate/gate.toml">
+    <entry file="file://$PROJECT_DIR$/gate/src/protogen/gate.proto" />
+    <entry file="file://$PROJECT_DIR$/gate/src/gnet/Bootstrap.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="15">
-          <caret line="1" column="8" selection-start-line="1" selection-start-column="8" selection-end-line="1" selection-end-column="8" />
+        <state relative-caret-position="264">
+          <caret line="27" column="76" lean-forward="true" selection-start-line="27" selection-start-column="3" selection-end-line="27" selection-end-column="76" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/gate/src/com/hellbistu/gate/config/GateConfig.java">
+    <entry file="file://$PROJECT_DIR$/protogen/gate.proto" />
+    <entry file="file://$PROJECT_DIR$/gate/src/gnet/handler/DispatchHandler.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="300">
-          <caret line="22" column="28" lean-forward="true" selection-start-line="22" selection-start-column="28" selection-end-line="22" selection-end-column="28" />
+        <state>
+          <caret line="22" column="42" selection-start-line="22" selection-start-column="42" selection-end-line="22" selection-end-column="42" />
           <folding>
-            <element signature="e#453#454#0" expanded="true" />
+            <element signature="imports" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/protogen/gate.java" />
+    <entry file="file://$PROJECT_DIR$/gate/src/gnet/handler/PacketDecoder.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="346">
+          <caret line="28" column="64" selection-start-line="28" selection-start-column="64" selection-end-line="28" selection-end-column="64" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/gate/src/gnet/Packet.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="314">
+          <caret line="20" column="27" selection-start-line="20" selection-start-column="27" selection-end-line="20" selection-end-column="27" />
+          <folding>
+            <element signature="e#484#485#0" expanded="true" />
+            <element signature="e#520#521#0" expanded="true" />
+            <element signature="e#629#630#0" expanded="true" />
+            <element signature="e#663#664#0" expanded="true" />
+            <element signature="e#560#561#0" expanded="true" />
+            <element signature="e#594#595#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/gate/src/gnet/handler/PacketEncoder.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="228">
+          <caret line="15" selection-start-line="15" selection-end-line="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/gate/src/protogen/gate.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="209">
+          <caret line="12" column="43" selection-start-line="12" selection-start-column="26" selection-end-line="12" selection-end-column="43" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/gate/src/gnet/LinkSessionManager.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="95">
+          <caret line="5" column="31" lean-forward="true" selection-start-line="5" selection-start-column="31" selection-end-line="5" selection-end-column="31" />
+          <folding>
+            <element signature="e#367#368#0" expanded="true" />
+            <element signature="e#424#425#0" expanded="true" />
+            <element signature="e#460#461#0" expanded="true" />
+            <element signature="e#500#501#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://D:/Software/jdk1.8/src.zip!/java/io/PrintWriter.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="207">
+          <caret line="98" column="11" selection-start-line="98" selection-start-column="11" selection-end-line="98" selection-end-column="11" />
+          <folding>
+            <element signature="e#2748#2749#0" expanded="true" />
+            <element signature="e#2780#2781#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://D:/Software/jdk1.8/src.zip!/java/io/File.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="192">
+          <caret line="1011" selection-start-line="1011" selection-end-line="1011" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/gnet/link.protogen.proto" />
+    <entry file="file://$PROJECT_DIR$/gnet/link/protogen.proto" />
+    <entry file="file://$PROJECT_DIR$/build.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="171">
+          <caret line="9" selection-start-line="9" selection-end-line="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/gate/gate.iml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="228">
+          <caret line="12" column="9" lean-forward="true" selection-start-line="12" selection-start-column="9" selection-end-line="12" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://D:/Software/jdk1.8/src.zip!/java/lang/System.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="14079">
+          <caret line="787" column="25" selection-start-line="787" selection-start-column="25" selection-end-line="787" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://D:/Software/jdk1.8/src.zip!/java/lang/Runtime.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="6023">
+          <caret line="345" column="19" selection-start-line="345" selection-start-column="19" selection-end-line="345" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/gate/protogen/gnet/link/gnet/link/protogen.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="285">
+          <caret line="16" column="47" selection-start-line="16" selection-start-column="47" selection-end-line="16" selection-end-column="47" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/protocols/game/gsp.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="114">
+          <caret line="6" column="77" selection-start-line="6" selection-start-column="77" selection-end-line="6" selection-end-column="77" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/gs/protogen/knight/gsp/item/knight/gsp/item/protogen.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-665">
+          <caret line="5" column="19" selection-start-line="5" selection-start-column="19" selection-end-line="5" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/gs/protogen/knight/gsp/knight/gsp/protogen.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-323">
+          <caret line="5" column="19" selection-start-line="5" selection-start-column="19" selection-end-line="5" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/protocols/game/item.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="209">
+          <caret line="11" column="12" lean-forward="true" selection-start-line="11" selection-start-column="12" selection-end-line="11" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/protogen/protos/gnet/link/protogen.proto">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="304">
+          <caret line="16" selection-start-line="16" selection-end-line="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/gs/protogen/knight/gsp/item/protogen.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="191">
+          <caret line="32" column="12" selection-start-line="32" selection-start-column="12" selection-end-line="32" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/protocols/gate.proto">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="285">
+          <caret line="15" column="1" selection-start-line="15" selection-start-column="1" selection-end-line="15" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/gs/src/knight/gsp/Bootstrap.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="133">
+          <caret line="7" column="5" lean-forward="true" selection-start-line="7" selection-start-column="5" selection-end-line="7" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/gs/protogen/knight/gsp/protogen.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret selection-end-line="1" selection-end-column="52" />
+          <folding>
+            <element signature="e#0#32109#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/gs/src/knight/gsp/item/CUsteItemHandler.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="38">
+          <caret line="2" selection-start-line="2" selection-end-line="2" selection-end-column="20" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/gs/src/knight/gsp/account/Account.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="114">
+          <caret line="6" column="1" selection-start-line="6" selection-start-column="1" selection-end-line="6" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$PROJECT_DIR$/libs/dom4j-1.6.1.jar!/org/dom4j/Element.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="269">
+          <caret line="142" column="11" selection-start-line="142" selection-start-column="11" selection-end-line="142" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$PROJECT_DIR$/libs/dom4j-1.6.1.jar!/org/dom4j/tree/DefaultElement.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="245">
+          <caret line="403" column="44" lean-forward="true" selection-start-line="403" selection-start-column="44" selection-end-line="403" selection-end-column="44" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tools/protogen-tool/src/knight/gsp/protogentool/ModuleConfig.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="456">
+          <caret line="49" selection-start-line="49" selection-end-line="49" />
+          <folding>
+            <element signature="e#845#846#0" expanded="true" />
+            <element signature="e#881#882#0" expanded="true" />
+            <element signature="e#952#953#0" expanded="true" />
+            <element signature="e#1002#1003#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://D:/Software/jdk1.8/src.zip!/java/io/StringReader.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-249">
+          <caret line="47" column="11" selection-start-line="47" selection-start-column="11" selection-end-line="47" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/gs/src/knight/gsp/SEnterWorldHandler.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="190">
+          <caret line="10" column="5" lean-forward="true" selection-start-line="10" selection-start-column="5" selection-end-line="10" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/protocols/gate/gate.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="212">
+          <caret line="19" column="50" selection-start-line="19" selection-start-column="44" selection-end-line="19" selection-end-column="50" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tools/protogen-tool/src/knight/gsp/protogentool/ProtocolConfig.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="76">
+          <caret line="4" column="24" selection-start-line="4" selection-start-column="24" selection-end-line="4" selection-end-column="24" />
+          <folding>
+            <element signature="e#195#196#0" expanded="true" />
+            <element signature="e#222#223#0" expanded="true" />
+            <element signature="e#262#263#0" expanded="true" />
+            <element signature="e#294#295#0" expanded="true" />
+            <element signature="e#325#326#0" expanded="true" />
+            <element signature="e#352#353#0" expanded="true" />
+            <element signature="e#392#393#0" expanded="true" />
+            <element signature="e#424#425#0" expanded="true" />
+            <element signature="e#455#456#0" expanded="true" />
+            <element signature="e#482#483#0" expanded="true" />
+            <element signature="e#522#523#0" expanded="true" />
+            <element signature="e#554#555#0" expanded="true" />
+            <element signature="e#587#588#0" expanded="true" />
+            <element signature="e#616#617#0" expanded="true" />
+            <element signature="e#660#661#0" expanded="true" />
+            <element signature="e#696#697#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/protocols/protocol.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="302">
+          <caret line="27" column="23" selection-start-line="27" selection-start-column="13" selection-end-line="27" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tools/protogen-tool/src/knight/gsp/protogentool/Main.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="111">
+          <caret line="206" column="61" selection-start-line="206" selection-start-column="61" selection-end-line="206" selection-end-column="61" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/gate/src/gnet/handler/KeepAliveHandler.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="190">
+          <caret line="15" lean-forward="true" selection-start-line="15" selection-end-line="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tools/protogen-tool/src/knight/gsp/protogentool/ModuleHandlerConfig.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="283">
+          <caret line="36" column="31" selection-start-line="36" selection-start-column="18" selection-end-line="36" selection-end-column="31" />
+          <folding>
+            <element signature="e#664#665#0" expanded="true" />
+            <element signature="e#697#698#0" expanded="true" />
+            <element signature="e#749#750#0" expanded="true" />
+            <element signature="e#793#794#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/gate/protogen/gnet/link/protogen.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-34248">
+          <caret line="5" column="19" selection-start-line="5" selection-start-column="19" selection-end-line="5" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/gs/src/knight/gsp/CEnterWorldHandler.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="95">
+          <caret line="6" column="46" lean-forward="true" selection-start-line="6" selection-start-column="46" selection-end-line="6" selection-end-column="46" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/gsHandler.template">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret selection-end-line="2" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/gs/src/knight/gsp/item/CUseItemHandler.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="190">
+          <caret line="10" column="34" selection-start-line="10" selection-start-column="34" selection-end-line="10" selection-end-column="34" />
+          <folding>
+            <element signature="e#0#338#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/gs/src/knight/gsp/IProtocolHandle.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="133">
+          <caret line="7" column="32" selection-start-line="7" selection-start-column="17" selection-end-line="7" selection-end-column="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/registGsHandler.template">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="399">
+          <caret line="21" lean-forward="true" selection-start-line="21" selection-end-line="21" />
         </state>
       </provider>
     </entry>
@@ -539,11 +1001,12 @@
       </state>
       <state key="ModuleStructureConfigurable.UI">
         <settings>
-          <last-edited>battle</last-edited>
+          <last-edited>gs</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>
                 <option value="0.2" />
+                <option value="0.6" />
               </list>
             </option>
           </splitter-proportions>

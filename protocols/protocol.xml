@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project>
+
+    <!--server,client 是服务器还是客户端-->
+    <mode>server</mode>
+
+    <!--protoc的地址-->
+    <protoc>
+        <windows>bin/protoc-3.11.3-win64/bin/protoc</windows>
+        <mac>bin/protoc-3.11.3-osx-x86_64/bin/protoc</mac>
+        <linux>bin/protoc-3.11.3-linux-x86_64/bin/protoc</linux>
+    </protoc>
+
+    <!--这里生成的协议给client和gate用-->
+    <module name="gate">
+        <dir>gate</dir>
+        <language>java</language>
+        <outputdir>gate/protogen</outputdir>
+    </module>
+
+    <!--这里生成client和gs之间的协议-->
+    <module name="game">
+        <dir>game</dir>
+        <language>java</language>
+        <outputdir>gs/protogen</outputdir>
+        <handler>
+            <dir>gs/src</dir>
+            <handleMode>client</handleMode><!--只handle client相关协议-->
+            <extension>.java</extension>
+            <template>templates/gsHandler.template</template>
+        </handler>
+    </module>
+
+<!--    <module name="battle"/>-->
+</project>

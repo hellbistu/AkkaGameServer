@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<namespace name="knight">
+    <namespace name="gsp">
+        <protocol name="CEnterWorld" type="1001" format="csharp" from="client">
+        </protocol>
+
+        <protocol name="SEnterWorld" type="1002" format="csharp" from="server">
+        </protocol>
+    </namespace>
+</namespace>

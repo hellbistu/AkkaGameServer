@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project name="server" default="build" >
+    <target name="build"></target>
+
+    <target name="protogen">
+        <echo>begin gen protocols</echo>
+<!--        <java></java>-->
+        <echo>end gen protocols</echo>
+    </target>
+
+
+</project>

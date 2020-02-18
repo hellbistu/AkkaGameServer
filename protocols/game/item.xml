@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<namespace name="knight">
+    <namespace name="gsp">
+        <namespace name="item">
+            <protocol name="CUseItem" type="1201" format="csharp" from="client">
+            </protocol>
+
+            <protocol name="SUseItem" type="1202" format="csharp" from="server">
+            </protocol>
+        </namespace>
+    </namespace>
+</namespace>

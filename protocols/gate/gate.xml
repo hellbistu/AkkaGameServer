@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<namespace name="gnet">
+
+    <!-- client与link之间的协议 -->
+    <namespace name="link">
+        <!-- 客户端与gate进行握手，client to gate -->
+        <protocol name="HandleShake" type="1" format="csharp" from="client">
+            <variable name="acid" type="int64"/>玩家的账号id
+        </protocol>
+
+        <protocol name="HandleShakeResult" type="2" format="csharp" from="client">
+            <variable name="code" type="int32"/>0代表成功,否则代表错误码
+        </protocol>
+
+        <!-- 心跳协议，客户端每30秒给服务器发送一次 -->
+        <protocol name="KeepAlive" type="3" format="csharp" from="client">
+        </protocol>
+
+        <!-- client给gs发送的协议 -->
+        <protocol name="C2SPacket" type="4" format="csharp" from="client">
+            <variable name="ptype" type="bytes"/>协议号，占用两个byte，采用小端法构造出int16(csharp),short(java)
+            <variable name="length" type="int32"/>pdata长度
+            <variable name="pdata" type="bytes"/>协议数据
+        </protocol>
+
+        <!-- gs给client发送的协议 -->
+        <protocol name="S2CPacket" type="5" format="csharp" from="server">
+            <variable name="ptype" type="bytes"/>协议号，占用两个byte，采用小端法构造出int16(csharp),short(java)
+            <variable name="length" type="int32"/>pdata长度
+            <variable name="pdata" type="bytes"/>协议数据
+        </protocol>
+    </namespace>
+
+
+</namespace>
